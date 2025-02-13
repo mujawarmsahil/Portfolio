@@ -4,7 +4,7 @@ import Pdf from "../assets/cv/SahilMujawar.pdf"
 export default function Profile() {
     return(<>
         <div className="w-full min-h-[80vh] flex items-center md:flex-row sm:flex-col">
-            <div className="md:h-full  w-2/4 flex justify-center items-center object-contain"><img src={Personal} alt="" width="500px " height="250px"/></div>
+            <div className="md:h-full  w-2/4 flex justify-center items-center object-contain"><img src={Personal} alt="" width="500px " height="250px" className="drop-shadow-[0_4px_6px_rgba(0,10,55,0.7)]"/></div>
             <div className="md:h-full w-2/4 flex flex-col justify-center items-center  px-3">
                 <h1 >SAHIL M. MUJAWAR</h1>
                 <div className="flex flex-col gap-5">
