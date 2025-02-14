@@ -15,11 +15,11 @@ import SkillSet from "./SkillSet"
 
 export default function Skills(){
     const[skillSet,setSkillSet] = useState([
-        ["Programming Language", C, CPP, Java],
-        ["Front-End Technologies", HTML, CSS, JavaScript],
-        ["Framework", Maven, Bootstrap,Tailwind],
-        ["Library", ReactImg],
-        ["Version Control", Git, Github],
+        ["Programming Language", {logo : C,skilled : "80%"}, {logo :CPP,skilled : "80%"},{logo : Java,skilled : "80%"}],
+        ["Front-End Technologies", {logo :HTML,skilled : "90%"}, {logo :CSS,skilled : "90%"}, {logo :JavaScript,skilled : "80%"}],
+        ["Framework", {logo :Maven,skilled:"50%"}, {logo :Bootstrap,skilled : "80%"},{logo :Tailwind,skilled : "80%"}],
+        ["Library", {logo :ReactImg,skilled : "60%"}],
+        ["Version Control",{ logo :Git,skilled : "60%"}, {logo :Github,skilled : "60%"}],
     ])
     
     return(
