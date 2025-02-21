@@ -15,7 +15,7 @@ export default function Project({details}) {
                 <p className="text-center text-[20px] group-hover:text-[#646cff]">{heading}</p>
             </div>
             <div className="flex gap-[10px] absolute left-[50%] top-[150%] group-hover:top-[50%] -translate-x-[50%] -translate-y-[50%] transition-all duration-500 delay-75">
-                <a href={siteUrl} target="_blank" ><button className="bg-white rounded bg-opacity-75" type="button"><img src={view} alt="" className="w-[30px] h-[30px]"/></button></a>
+                <a href={siteUrl} target="_blank" className={siteUrl === "" ? "hidden" : ""}><button className="bg-white rounded bg-opacity-75" type="button"><img src={view} alt="" className="w-[30px] h-[30px]"/></button></a>
                 <a href={repoUrl} target="_blank" ><button type="button" className="bg-white rounded bg-opacity-75"><img src={link} alt="" className="w-[30px] h-[30px] "/></button></a>
             </div>
         </div>
