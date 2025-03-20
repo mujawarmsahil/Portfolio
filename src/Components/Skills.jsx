@@ -12,6 +12,7 @@ import Github from "../assets/skills/github.png"
 import Postman from "../assets/skills/Postman.png"
 import Spring from "../assets/skills/Spring.png"
 import Tailwind from "../assets/skills/tailwind.png"
+import Redux from "../assets/skills/redux.png"
 import { useState } from "react"
 import SkillSet from "./SkillSet"
 
@@ -22,7 +23,7 @@ export default function Skills(){
         ["Framework", {logo :Maven,skilled:"50%"}, {logo :Bootstrap,skilled : "80%"},{logo :Tailwind,skilled : "80%"},{logo:Spring,skilled:"60%"}],
         ["Library", {logo :ReactImg,skilled : "70%"}],
         ["Version Control",{ logo :Git,skilled : "60%"}, {logo :Github,skilled : "60%"}],
-        ["Testing Tool",{logo : Postman,skilled:"70%"}]
+        ["Tool",{logo : Postman,skilled:"70%"},{logo:Redux,skilled:"60%"}]
     ])
     
     return(
